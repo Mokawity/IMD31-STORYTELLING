@@ -192,3 +192,15 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-footer {
+  width: 37px;
+  height: 37px;
+  flex-shrink: 0;
+}
