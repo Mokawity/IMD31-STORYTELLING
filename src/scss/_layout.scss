@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 215px;
-  padding-bottom: 240px;
+  padding-bottom: 290px;
   background-color: rgb(0, 0, 0);
   position: relative;
   height: 450px;
@@ -50,4 +50,32 @@ body {
 
 .carton-down {
   padding-top: 50px;
+}
+
+.header-parallax {
+  position: relative;
+  height: 85vh;
+}
+
+.parallax-layer {
+  position: absolute;
+  bottom: 0;
+}
+
+.layer-1 {
+  top: 0%;
+}
+
+.layer-3 {
+  top: 0%;
+}
+
+.layer-2 {
+  top: 15%;
+  left: 27%;
+  width: 700px;
+}
+
+.spacer {
+  height: 10vh;
 }
