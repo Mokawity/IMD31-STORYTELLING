@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>furieuse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <style>
@@ -14,10 +14,27 @@
   </head>
   <body>
     <header>
+      <div class="nav">
+        <div class="button-nav">
+          <a href="">
+            <p>AUTEUR</p>
+          </a>
+        </div>
+        <div class="button-nav">
+          <a href="">
+            <p>ACHETER LA BD</p>
+          </a>
+        </div>
+        <div class="button-nav point-de-vente">
+          <a href="">
+            <p>POINT DE VENTE</p>
+          </a>
+        </div>
+      </div>
       <div class="header-parallax">
         <img
           class="parallax-layer layer-1"
-          src="img/Fichier 8@4x-8.png"
+          src="img/background-header.png"
           alt=""
         />
       </div>
@@ -215,10 +232,14 @@
             morose propriétaire…
           </p>
         </div>
-        <div class="btn-book">
-          <p>VENTE DE LA BD</p>
+        <a href="https://www.dargaud.com/bd/furieuse-bda5430320#strate_acheter">
+          <div class="btn-book">
+            <p>VENTE DE LA BD</p>
+          </div>
+        </a>
+        <div class="more-info-book">
+          <a href="https://www.fnac.com">Trouver une librairie partenaire</a>
         </div>
-        <div class="more-info-book">Trouver une librairie partenaire</div>
         <div class="book-decoration-down">
           <img
             src="../src/img/capture-decran-20231103-a-14116.png?as=webp"
@@ -234,13 +255,21 @@
         </div>
         <div class="social">
           <div class="media">
-            <img src="../src/img/facebook.png?as=webp" alt="" />
+            <a href="https://www.facebook.com/editions.dargaud/?locale=fr_FR">
+              <img src="../src/img/facebook.png?as=webp" alt="" />
+            </a>
           </div>
           <div class="media">
-            <img src="../src/img/instagram.png?as=webp" alt="" />
+            <a href="https://www.instagram.com/dargaud/">
+              <img src="../src/img/instagram.png?as=webp" alt="" />
+            </a>
           </div>
           <div class="media">
-            <img src="../src/img/x.png?as=webp" alt="" />
+            <a
+              href="https://twitter.com/EditionsDargaud?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            >
+              <img src="../src/img/x.png?as=webp" alt="" />
+            </a>
           </div>
         </div>
       </div>
@@ -251,7 +280,10 @@
         <div class="lien">
           <p>
             Le livre a été édité par Dargaud. D’autres oeuvres <br />
-            merveilleuses sont disponibles sur leur site.
+            merveilleuses sont disponibles sur
+            <span class="link"
+              ><a href="https://www.dargaud.com/">leur site.</a></span
+            >
           </p>
           <p class="teaser">Aller voir le teaser de la BD</p>
         </div>
