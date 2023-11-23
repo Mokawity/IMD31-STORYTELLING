@@ -19,7 +19,10 @@
 }
 
 .header-parallax {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  flex-direction: column;
   height: 85vh;
 }
 
@@ -37,9 +40,10 @@
 }
 
 .layer-2 {
-  top: 15%;
-  left: 27%;
-  width: 700px;
+  position: absolute;
+  bottom: 53%;
+  left: 26%;
+  width: 800px;
 }
 
 .spacer {
