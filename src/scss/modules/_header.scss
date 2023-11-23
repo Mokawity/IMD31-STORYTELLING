@@ -1,6 +1,6 @@
 .header-section {
   background-color: rgb(210, 210, 210);
-  height: 800px;
+  height: 900px;
   border: red 3px solid;
   position: relative;
   min-width: 1000px;
@@ -48,4 +48,24 @@
 
 .spacer {
   height: 10vh;
+}
+
+.btn-scroll {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  top: 10px;
+  z-index: 7;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
 }

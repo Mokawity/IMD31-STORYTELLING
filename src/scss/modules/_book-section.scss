@@ -43,7 +43,7 @@
 .more-info-book {
   padding-bottom: 40px;
   padding-top: 20px;
-  color: blue;
+  color: rgb(255, 0, 85);
   text-decoration: underline;
   font-family: Lato;
   font-size: 12px;
@@ -57,7 +57,11 @@
 }
 
 .book-img {
-  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  width: 590px;
+  height: 656px;
 }
 
 .btn-book {

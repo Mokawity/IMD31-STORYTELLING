@@ -8,7 +8,6 @@ var tl = gsap.timeline({
     trigger: ".header-parallax",
     start: "top top",
     end: "+=500",
-    markers: true,
     scrub: true,
   },
 });
@@ -18,7 +17,15 @@ tl.add("parallax");
 tl.to(
   ".layer-1",
   {
-    y: "20%",
+    y: "25%",
+  },
+  "parallax"
+);
+
+tl.to(
+  ".layer-3",
+  {
+    y: "5%",
   },
   "parallax"
 );
@@ -26,7 +33,7 @@ tl.to(
 tl.to(
   ".layer-2",
   {
-    y: "90%",
+    y: "-30%",
   },
   "parallax"
 );
@@ -35,7 +42,6 @@ gsap.to(".img-1", {
   scrollTrigger: {
     trigger: ".img-1",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -56,7 +62,6 @@ gsap.to(".img-2", {
   scrollTrigger: {
     trigger: ".img-2",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -77,7 +82,6 @@ gsap.to(".img-3", {
   scrollTrigger: {
     trigger: ".img-3",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -98,7 +102,6 @@ gsap.to(".img-4", {
   scrollTrigger: {
     trigger: ".img-4",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -119,7 +122,6 @@ gsap.to(".img-5", {
   scrollTrigger: {
     trigger: ".img-5",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -140,7 +142,6 @@ gsap.to(".img-6", {
   scrollTrigger: {
     trigger: ".img-6",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -161,7 +162,6 @@ gsap.to(".img-7", {
   scrollTrigger: {
     trigger: ".img-7",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -182,7 +182,6 @@ gsap.to(".img-8", {
   scrollTrigger: {
     trigger: ".img-8",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -203,7 +202,6 @@ gsap.to(".img-9", {
   scrollTrigger: {
     trigger: ".img-9",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -224,7 +222,6 @@ gsap.to(".img-10", {
   scrollTrigger: {
     trigger: ".img-10",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -245,7 +242,6 @@ gsap.to(".img-11", {
   scrollTrigger: {
     trigger: ".img-11",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -266,7 +262,6 @@ gsap.to(".img-12", {
   scrollTrigger: {
     trigger: ".img-12",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -287,7 +282,6 @@ gsap.to(".img-13", {
   scrollTrigger: {
     trigger: ".img-13",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -308,7 +302,6 @@ gsap.to(".img-14", {
   scrollTrigger: {
     trigger: ".img-14",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -329,7 +322,6 @@ gsap.to(".img-15", {
   scrollTrigger: {
     trigger: ".img-15",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -350,7 +342,6 @@ gsap.to(".img-16", {
   scrollTrigger: {
     trigger: ".img-16",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -371,7 +362,6 @@ gsap.to(".img-17", {
   scrollTrigger: {
     trigger: ".img-17",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -392,7 +382,6 @@ gsap.to(".img-18", {
   scrollTrigger: {
     trigger: ".img-18",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
@@ -413,7 +402,6 @@ gsap.to(".img-19", {
   scrollTrigger: {
     trigger: ".img-19",
     start: "top 100%",
-    markers: true,
   },
   y: "-40px",
   duration: 1.5,
