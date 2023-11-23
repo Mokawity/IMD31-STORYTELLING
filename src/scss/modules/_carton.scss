@@ -1,0 +1,29 @@
+.carton-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 215px;
+  padding-bottom: 290px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  height: 450px;
+}
+
+.carton p {
+  font-family: Lora;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+}
+
+.carton-up {
+  padding-bottom: 50px;
+}
+
+.carton-down {
+  padding-top: 50px;
+}

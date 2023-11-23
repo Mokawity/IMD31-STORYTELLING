@@ -18,7 +18,7 @@ tl.add("parallax");
 tl.to(
   ".layer-1",
   {
-    y: "25%",
+    y: "20%",
   },
   "parallax"
 );

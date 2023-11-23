@@ -67,6 +67,13 @@
   background: #000;
 }
 
+.btn-book :hover {
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  background-color: #ff0066;
+  transition: 0.5s;
+}
+
 .btn-book p {
   padding: 10px;
 }

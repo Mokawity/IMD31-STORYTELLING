@@ -1,0 +1,33 @@
+.nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  top: 20px;
+  left: 940px;
+  text-decoration: none;
+}
+
+.button-nav {
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 170px;
+  color: red($color: #380000);
+  background-color: white;
+}
+
+.button-nav :hover {
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  background-color: #3c1223;
+  transition: 0.5s;
+}
+
+.button-nav a p {
+  padding: 10px 20px;
+  text-decoration: none;
+}

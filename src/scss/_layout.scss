@@ -3,109 +3,11 @@ body {
   overflow-x: hidden;
 }
 
-.header-section {
-  background-color: rgb(210, 210, 210);
-  height: 800px;
-  border: red 3px solid;
-  position: relative;
-  min-width: 1000px;
-}
-
-.button-header {
-  background-color: rgb(103, 103, 103);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  bottom: 90px;
-  border: red 3px solid;
-  position: relative;
-  min-width: 1000px;
-}
-
-.nav {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  z-index: 1;
-  top: 20px;
-  left: 980px;
-}
-
-.button-nav {
-  border: 1px solid;
-  border-radius: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: red($color: #380000);
-  background-color: white;
-}
-
-.button-nav :hover {
-  border-radius: 30px;
-  color: rgb(255, 255, 255);
-  background-color: #3c1223;
-  transition: 0.5s;
-}
-
-.button-nav a p {
-  padding: 10px 20px;
+a {
   text-decoration: none;
 }
 
-.carton-element {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 215px;
-  padding-bottom: 290px;
-  background-color: rgb(0, 0, 0);
-  position: relative;
-  height: 450px;
-}
-
-.carton p {
-  font-family: Lora;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  color: white;
-  line-height: 25px;
-  text-align: center;
-}
-
-.carton-up {
-  padding-bottom: 50px;
-}
-
-.carton-down {
-  padding-top: 50px;
-}
-
-.header-parallax {
-  position: relative;
-  height: 85vh;
-}
-
-.parallax-layer {
-  position: absolute;
-  bottom: 0;
-}
-
-.layer-1 {
-  top: 0%;
-}
-
-.layer-3 {
-  top: 0%;
-}
-
-.layer-2 {
-  top: 15%;
-  left: 27%;
-  width: 700px;
-}
-
-.spacer {
-  height: 10vh;
+span {
+  text-decoration: underline;
+  color: rgb(168, 168, 255);
 }

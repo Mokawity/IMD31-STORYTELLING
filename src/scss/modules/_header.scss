@@ -1,0 +1,47 @@
+.header-section {
+  background-color: rgb(210, 210, 210);
+  height: 800px;
+  border: red 3px solid;
+  position: relative;
+  min-width: 1000px;
+  z-index: -900;
+}
+
+.button-header {
+  background-color: rgb(103, 103, 103);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 90px;
+  border: red 3px solid;
+  position: relative;
+  min-width: 1000px;
+}
+
+.header-parallax {
+  position: relative;
+  height: 85vh;
+}
+
+.parallax-layer {
+  position: absolute;
+  bottom: 0;
+}
+
+.layer-1 {
+  top: 0%;
+}
+
+.layer-3 {
+  top: 0%;
+}
+
+.layer-2 {
+  top: 15%;
+  left: 27%;
+  width: 700px;
+}
+
+.spacer {
+  height: 10vh;
+}
